@@ -7,29 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31D24E4E2799342300F103CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E4D2799342300F103CE /* AppDelegate.m */; };
-		31D24E542799342300F103CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E532799342300F103CE /* ViewController.m */; };
-		31D24E572799342300F103CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D24E552799342300F103CE /* Main.storyboard */; };
-		31D24E592799342600F103CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D24E582799342600F103CE /* Assets.xcassets */; };
-		31D24E5C2799342600F103CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D24E5A2799342600F103CE /* LaunchScreen.storyboard */; };
-		31D24E5F2799342600F103CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E5E2799342600F103CE /* main.m */; };
+		31D24E79279960DA00F103CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E78279960DA00F103CE /* AppDelegate.m */; };
+		31D24E7C279960DA00F103CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E7B279960DA00F103CE /* SceneDelegate.m */; };
+		31D24E7F279960DA00F103CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E7E279960DA00F103CE /* ViewController.m */; };
+		31D24E82279960DA00F103CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D24E80279960DA00F103CE /* Main.storyboard */; };
+		31D24E84279960DC00F103CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D24E83279960DC00F103CE /* Assets.xcassets */; };
+		31D24E87279960DC00F103CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D24E85279960DC00F103CE /* LaunchScreen.storyboard */; };
+		31D24E8A279960DC00F103CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E89279960DC00F103CE /* main.m */; };
+		31D24E93279960E600F103CE /* NPAPIHostModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E91279960E600F103CE /* NPAPIHostModal.m */; };
+		31D24E9A279976BD00F103CE /* NPAPIHostContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D24E99279976BD00F103CE /* NPAPIHostContextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31D24E492799342200F103CE /* NPAPIHostModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPAPIHostModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		31D24E4C2799342300F103CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		31D24E4D2799342300F103CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		31D24E522799342300F103CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		31D24E532799342300F103CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		31D24E562799342300F103CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		31D24E582799342600F103CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31D24E5B2799342600F103CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		31D24E5D2799342600F103CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31D24E5E2799342600F103CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31D24E74279960DA00F103CE /* NPAPIHostModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPAPIHostModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D24E77279960DA00F103CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31D24E78279960DA00F103CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31D24E7A279960DA00F103CE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		31D24E7B279960DA00F103CE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		31D24E7D279960DA00F103CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31D24E7E279960DA00F103CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31D24E81279960DA00F103CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31D24E83279960DC00F103CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31D24E86279960DC00F103CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31D24E88279960DC00F103CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D24E89279960DC00F103CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31D24E91279960E600F103CE /* NPAPIHostModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAPIHostModal.m; sourceTree = "<group>"; };
+		31D24E92279960E600F103CE /* NPAPIHostModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAPIHostModal.h; sourceTree = "<group>"; };
+		31D24E98279976BC00F103CE /* NPAPIHostContextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPAPIHostContextView.h; sourceTree = "<group>"; };
+		31D24E99279976BD00F103CE /* NPAPIHostContextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPAPIHostContextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31D24E462799342200F103CE /* Frameworks */ = {
+		31D24E71279960DA00F103CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,34 +48,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31D24E402799342200F103CE = {
+		31D24E6B279960DA00F103CE = {
 			isa = PBXGroup;
 			children = (
-				31D24E4B2799342300F103CE /* NPAPIHostModal */,
-				31D24E4A2799342200F103CE /* Products */,
+				31D24E76279960DA00F103CE /* NPAPIHostModal */,
+				31D24E75279960DA00F103CE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		31D24E4A2799342200F103CE /* Products */ = {
+		31D24E75279960DA00F103CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31D24E492799342200F103CE /* NPAPIHostModal.app */,
+				31D24E74279960DA00F103CE /* NPAPIHostModal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31D24E4B2799342300F103CE /* NPAPIHostModal */ = {
+		31D24E76279960DA00F103CE /* NPAPIHostModal */ = {
 			isa = PBXGroup;
 			children = (
-				31D24E4C2799342300F103CE /* AppDelegate.h */,
-				31D24E4D2799342300F103CE /* AppDelegate.m */,
-				31D24E522799342300F103CE /* ViewController.h */,
-				31D24E532799342300F103CE /* ViewController.m */,
-				31D24E552799342300F103CE /* Main.storyboard */,
-				31D24E582799342600F103CE /* Assets.xcassets */,
-				31D24E5A2799342600F103CE /* LaunchScreen.storyboard */,
-				31D24E5D2799342600F103CE /* Info.plist */,
-				31D24E5E2799342600F103CE /* main.m */,
+				31D24E90279960E600F103CE /* NPAPIHostModal */,
+				31D24E77279960DA00F103CE /* AppDelegate.h */,
+				31D24E78279960DA00F103CE /* AppDelegate.m */,
+				31D24E7A279960DA00F103CE /* SceneDelegate.h */,
+				31D24E7B279960DA00F103CE /* SceneDelegate.m */,
+				31D24E7D279960DA00F103CE /* ViewController.h */,
+				31D24E7E279960DA00F103CE /* ViewController.m */,
+				31D24E80279960DA00F103CE /* Main.storyboard */,
+				31D24E83279960DC00F103CE /* Assets.xcassets */,
+				31D24E85279960DC00F103CE /* LaunchScreen.storyboard */,
+				31D24E88279960DC00F103CE /* Info.plist */,
+				31D24E89279960DC00F103CE /* main.m */,
+			);
+			path = NPAPIHostModal;
+			sourceTree = "<group>";
+		};
+		31D24E90279960E600F103CE /* NPAPIHostModal */ = {
+			isa = PBXGroup;
+			children = (
+				31D24E92279960E600F103CE /* NPAPIHostModal.h */,
+				31D24E91279960E600F103CE /* NPAPIHostModal.m */,
+				31D24E98279976BC00F103CE /* NPAPIHostContextView.h */,
+				31D24E99279976BD00F103CE /* NPAPIHostContextView.m */,
 			);
 			path = NPAPIHostModal;
 			sourceTree = "<group>";
@@ -74,13 +97,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31D24E482799342200F103CE /* NPAPIHostModal */ = {
+		31D24E73279960DA00F103CE /* NPAPIHostModal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31D24E622799342600F103CE /* Build configuration list for PBXNativeTarget "NPAPIHostModal" */;
+			buildConfigurationList = 31D24E8D279960DC00F103CE /* Build configuration list for PBXNativeTarget "NPAPIHostModal" */;
 			buildPhases = (
-				31D24E452799342200F103CE /* Sources */,
-				31D24E462799342200F103CE /* Frameworks */,
-				31D24E472799342200F103CE /* Resources */,
+				31D24E70279960DA00F103CE /* Sources */,
+				31D24E71279960DA00F103CE /* Frameworks */,
+				31D24E72279960DA00F103CE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,24 +111,24 @@
 			);
 			name = NPAPIHostModal;
 			productName = NPAPIHostModal;
-			productReference = 31D24E492799342200F103CE /* NPAPIHostModal.app */;
+			productReference = 31D24E74279960DA00F103CE /* NPAPIHostModal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		31D24E412799342200F103CE /* Project object */ = {
+		31D24E6C279960DA00F103CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					31D24E482799342200F103CE = {
+					31D24E73279960DA00F103CE = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 31D24E442799342200F103CE /* Build configuration list for PBXProject "NPAPIHostModal" */;
+			buildConfigurationList = 31D24E6F279960DA00F103CE /* Build configuration list for PBXProject "NPAPIHostModal" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,55 +136,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 31D24E402799342200F103CE;
-			productRefGroup = 31D24E4A2799342200F103CE /* Products */;
+			mainGroup = 31D24E6B279960DA00F103CE;
+			productRefGroup = 31D24E75279960DA00F103CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31D24E482799342200F103CE /* NPAPIHostModal */,
+				31D24E73279960DA00F103CE /* NPAPIHostModal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		31D24E472799342200F103CE /* Resources */ = {
+		31D24E72279960DA00F103CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D24E5C2799342600F103CE /* LaunchScreen.storyboard in Resources */,
-				31D24E592799342600F103CE /* Assets.xcassets in Resources */,
-				31D24E572799342300F103CE /* Main.storyboard in Resources */,
+				31D24E87279960DC00F103CE /* LaunchScreen.storyboard in Resources */,
+				31D24E84279960DC00F103CE /* Assets.xcassets in Resources */,
+				31D24E82279960DA00F103CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31D24E452799342200F103CE /* Sources */ = {
+		31D24E70279960DA00F103CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D24E542799342300F103CE /* ViewController.m in Sources */,
-				31D24E4E2799342300F103CE /* AppDelegate.m in Sources */,
-				31D24E5F2799342600F103CE /* main.m in Sources */,
+				31D24E7F279960DA00F103CE /* ViewController.m in Sources */,
+				31D24E79279960DA00F103CE /* AppDelegate.m in Sources */,
+				31D24E8A279960DC00F103CE /* main.m in Sources */,
+				31D24E7C279960DA00F103CE /* SceneDelegate.m in Sources */,
+				31D24E93279960E600F103CE /* NPAPIHostModal.m in Sources */,
+				31D24E9A279976BD00F103CE /* NPAPIHostContextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		31D24E552799342300F103CE /* Main.storyboard */ = {
+		31D24E80279960DA00F103CE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				31D24E562799342300F103CE /* Base */,
+				31D24E81279960DA00F103CE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		31D24E5A2799342600F103CE /* LaunchScreen.storyboard */ = {
+		31D24E85279960DC00F103CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				31D24E5B2799342600F103CE /* Base */,
+				31D24E86279960DC00F103CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +195,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		31D24E602799342600F103CE /* Debug */ = {
+		31D24E8B279960DC00F103CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		31D24E612799342600F103CE /* Release */ = {
+		31D24E8C279960DC00F103CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +307,7 @@
 			};
 			name = Release;
 		};
-		31D24E632799342600F103CE /* Debug */ = {
+		31D24E8E279960DC00F103CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		31D24E642799342600F103CE /* Release */ = {
+		31D24E8F279960DC00F103CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -336,25 +362,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31D24E442799342200F103CE /* Build configuration list for PBXProject "NPAPIHostModal" */ = {
+		31D24E6F279960DA00F103CE /* Build configuration list for PBXProject "NPAPIHostModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31D24E602799342600F103CE /* Debug */,
-				31D24E612799342600F103CE /* Release */,
+				31D24E8B279960DC00F103CE /* Debug */,
+				31D24E8C279960DC00F103CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31D24E622799342600F103CE /* Build configuration list for PBXNativeTarget "NPAPIHostModal" */ = {
+		31D24E8D279960DC00F103CE /* Build configuration list for PBXNativeTarget "NPAPIHostModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31D24E632799342600F103CE /* Debug */,
-				31D24E642799342600F103CE /* Release */,
+				31D24E8E279960DC00F103CE /* Debug */,
+				31D24E8F279960DC00F103CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 31D24E412799342200F103CE /* Project object */;
+	rootObject = 31D24E6C279960DA00F103CE /* Project object */;
 }
